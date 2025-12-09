@@ -55,7 +55,7 @@ export const ProductDetailModal = ({
                 {/* Price and Add to Cart */}
                 <div className="space-y-4">
                   <div className="font-display text-4xl font-bold text-primary">
-                    ${product.price.toFixed(2)}
+                    {product.price.toFixed(2)}/-
                   </div>
                   <Button
                     onClick={() => {
@@ -138,7 +138,7 @@ export const ProductDetailModal = ({
                           {relatedProduct.name}
                         </h4>
                         <p className="font-display text-lg font-bold text-primary">
-                          ${relatedProduct.price.toFixed(2)}
+                          {relatedProduct.price.toFixed(2)}/-
                         </p>
                       </button>
                     ))}
