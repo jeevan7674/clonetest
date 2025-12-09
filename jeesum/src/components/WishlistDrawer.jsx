@@ -94,7 +94,7 @@ export const WishlistDrawer = ({
                       </p>
                       <div className="flex items-center justify-between mt-3">
                         <span className="font-display text-lg font-bold text-primary">
-                          ${item.price.toFixed(2)}
+                          {item.price.toFixed(2)}/-
                         </span>
                         <Button
                           size="sm"
